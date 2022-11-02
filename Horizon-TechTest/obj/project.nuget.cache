@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kHwaJ+Oo3PGwguLN9Lsv6QIeTlkec4ru01JCaU/I1udS7LzfQvn53pYrvJWHHy44nLYBMmBq2IvGz7Ceqeu8/Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Luke\\source\\repos\\Horizon-TechTest\\Horizon-TechTest\\Horizon-TechTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Luke\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}
