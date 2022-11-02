@@ -17,7 +17,7 @@ namespace Horizon_TechTest.Tests
 
             var result = parser.ParseLog(logContents);
 
-            Assert.AreEqual(result.Count, 5);
+            Assert.AreEqual(result.Count, 7);
         }
         [TestMethod]
         public void ParseDateTime()

@@ -17,9 +17,8 @@ namespace Horizon_TechTest
 
             var occuranceDict = CountOccurances(result);
 
-            Console.WriteLine(result.Count);
-            occuranceDict = (Dictionary<LogEntry, int>)occuranceDict.OrderBy(x => x.Value);
-            foreach(var occurance in occuranceDict)
+            var orderedOccuranceDict = occuranceDict.OrderByDescending(x => x.Value);
+            foreach(var occurance in orderedOccuranceDict)
             {
                 Console.WriteLine(string.Format("{0} - {1}", occurance.Key.Uri, occurance.Value));
             }
