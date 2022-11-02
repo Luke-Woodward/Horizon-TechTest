@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace Horizon_TechTest
 {
@@ -6,7 +7,13 @@ namespace Horizon_TechTest
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var reader = new StreamReader(@"Resources\w3clog.txt");
+            string logContents = reader.ReadToEnd();
+           
+            var result = W3CLogParser.ParseLog(logContents);
+
+            Console.WriteLine(result);
+            Console.Read();
         }
     }
 }

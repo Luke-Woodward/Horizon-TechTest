@@ -6,4 +6,14 @@
     <RootNamespace>Horizon_TechTest</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Resources\w3clog.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\w3clog.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
