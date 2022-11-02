@@ -6,9 +6,9 @@ using static Horizon_TechTest.Enums;
 
 namespace Horizon_TechTest
 {
-    public static class W3CLogParser
+    public class W3CLogParser : ILogParser
     {
-        public static List<LogEntry> ParseLog(string input)
+        public List<LogEntry> ParseLog(string input)
         {
             var currentLogs = new List<LogEntry>();
 
