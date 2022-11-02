@@ -32,7 +32,7 @@ namespace Horizon_TechTest
             Dictionary<LogEntry, int> occuranceDict = new Dictionary<LogEntry, int>();
             foreach (var entry in input)
             {
-                if(!occuranceDict.Keys.Any(x => ((LogEntry)x).Uri == entry.Uri))
+                if(!occuranceDict.Keys.Any(x => x.Uri == entry.Uri))
                 {
                     occuranceDict.Add(entry, 1);
                 }
