@@ -8,16 +8,16 @@ namespace Horizon_TechTest
     {
         public enum HttpVerb
         {
-            Get = 0,
-            Post = 1,
-            Put = 2,
-            Delete = 3,
-            Patch = 4,
-            Head = 5,
-            Connect = 6,
-            Options = 7,
-            Trace = 8,
-            Other = 9
+            GET = 0,
+            POST = 1,
+            PUT = 2,
+            DELETE = 3,
+            PATCH = 4,
+            HEAD = 5,
+            CONNECT = 6,
+            OPTIONS = 7,
+            TRACE = 8,
+            OTHER = 9
         }
     }
 }

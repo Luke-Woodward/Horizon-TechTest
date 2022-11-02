@@ -53,7 +53,7 @@ namespace Horizon_TechTest
                             entry.ServerIp = fields[i];
                             break;
                         case "cs-method":
-                            entry.Method = Enum.TryParse(typeof(HttpVerb), fields[i], out var parsedMethod) ? (HttpVerb)parsedMethod : HttpVerb.Other;
+                            entry.Method = Enum.TryParse(typeof(HttpVerb), fields[i].ToUpper(), out var parsedMethod) ? (HttpVerb)parsedMethod : HttpVerb.OTHER;
                             break;
                         case "cs-uri-stem":
                             entry.UriStem = fields[i];

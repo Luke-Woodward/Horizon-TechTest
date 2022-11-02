@@ -5,7 +5,6 @@ C:\Users\Luke\source\repos\Horizon-TechTest\Horizon-TechTest\bin\Debug\netcoreap
 C:\Users\Luke\source\repos\Horizon-TechTest\Horizon-TechTest\bin\Debug\netcoreapp3.1\Horizon-TechTest.runtimeconfig.dev.json
 C:\Users\Luke\source\repos\Horizon-TechTest\Horizon-TechTest\bin\Debug\netcoreapp3.1\Horizon-TechTest.dll
 C:\Users\Luke\source\repos\Horizon-TechTest\Horizon-TechTest\bin\Debug\netcoreapp3.1\Horizon-TechTest.pdb
-C:\Users\Luke\source\repos\Horizon-TechTest\Horizon-TechTest\obj\Debug\netcoreapp3.1\Horizon-TechTest.csprojAssemblyReference.cache
 C:\Users\Luke\source\repos\Horizon-TechTest\Horizon-TechTest\obj\Debug\netcoreapp3.1\Horizon-TechTest.AssemblyInfoInputs.cache
 C:\Users\Luke\source\repos\Horizon-TechTest\Horizon-TechTest\obj\Debug\netcoreapp3.1\Horizon-TechTest.AssemblyInfo.cs
 C:\Users\Luke\source\repos\Horizon-TechTest\Horizon-TechTest\obj\Debug\netcoreapp3.1\Horizon-TechTest.csproj.CoreCompileInputs.cache
