@@ -30,5 +30,7 @@ namespace Horizon_TechTest
         public int? BytesReceived;
         public TimeSpan TimeTaken;
         public string StreamId;
+
+        public string Uri { get { return UriStem + UriQuery; } }
     }
 }
