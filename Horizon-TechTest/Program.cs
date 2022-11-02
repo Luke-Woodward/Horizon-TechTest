@@ -13,7 +13,7 @@ namespace Horizon_TechTest
            
             var result = Parser.ParseLog(logContents);
 
-            Console.WriteLine(result);
+            Console.WriteLine(result.Count);
             Console.Read();
         }
     }
